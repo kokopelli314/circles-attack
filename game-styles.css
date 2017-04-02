@@ -1,0 +1,28 @@
+
+canvas {
+    border-style: dashed;
+    position: absolute;
+/*    width: 360px;*/
+/*    height: 400px;*/
+}
+
+#ui-canvas {
+    z-index: 4;
+}
+
+#game-canvas {
+    z-index: 3;
+}
+
+#gameboard-canvas {
+    z-index: 2;
+};
+
+#background-canvas {
+    z-index: 1;
+}
+
+
+#assets {
+    display:none;
+}
